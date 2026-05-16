@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" role="img" aria-label="PulseHQ">
+  <defs>
+    <linearGradient id="wpg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#232F85"/>
+      <stop offset="50%" stop-color="#4cc9f0"/>
+      <stop offset="100%" stop-color="#4cc9f0"/>
+    </linearGradient>
+    <style>
+      @font-face {
+        font-family: 'Quicksand';
+        font-weight: 700;
+        src: url('data:font/woff2;base64,d09GMgABAAAAAAUMABAAAAAACWQAAASxAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbgUAcKAZgP1NUQVQqAFwRCAqGXIVJCxIAATYCJAMgBCAFhDQHIAwHG6kHUZQvTpbs54FtTHuwCGXIKAOn2WHvieDBOJjxjcxHuKXggyGoaix79uCZAySxfHTY5o0LCMWSlIxE4aNJ+f1pf44OCVJyEuL87u5TqS0uj4i67d0XeAiB5YGUB542HgiG/WCn/wqmYHBJAfqyqQa+J3GSh46lfkRTtViKv8j9931EL7rBhgMcUJf4B/hoONqAt+gmYhY8LRYm/hxrCQJVAGBECkSgbE2bY7Vdn22RM0LlbRER8KtYdsTIvM0HIBSZphSZ+US48uJxjINXxAn+zX87Ff8oANBNDWlIRoIk5khDWiDoiOimzt2QxyaQuOkH1E92z74k2N052DjKT6Md2tkksBbHvye30vazTxtvPSO+2VpifwD67AsscRIpEuiygynHFUdU+412INHzVDAQUCEn+vdc9tmoKzLZvgPAUmi/w773uMNv/r/is97lLV7ntTCQhpL2895sZHNlFZAEgKLN6yIAQACTEfpLHh5mLLeMEJ86jxEpjL4BzOg6J22TgYW8xQ3eEM0N1ST6/fuA3rvHyUkEdLwXNbkYE0Bfm2Mgz64aMSzHAJTo8T09+mC1k6f197N+iKzn5+PtRj9ZOcHQ13BDY0HovXuTIGAwkB8yMPT7UW8yiHLS+qKAWlEM3UpG0CacypnQvMzJ5cstz9C6eTqjuL8+rVaXxnBD6dwRQOWH7/mRvAtD3wC/xi65pgWFkRNMk7ySgTx6Kjv44HJ3rXkXCg0d8vWL2AGArs4PA4qYKjNwcjED6IFgEmscrsskA8NCAIhuMPS7ftoa3hIJa54EkkBG1nyYlBTpuatfcjNrE5LWtAON9GLMTL2LAo21l2uukE8I4dOcjkFeuAmaZZJEMkwFV2f+T3FLFNbE4Sj/rflJpg7YP42igsnjeIIwVk750jlAeMcOlbL+KS1BtHhS7ccUOGmQAyOL9Rwdi/RyUAecILIIXTyf7GilkxxiZmoaj2gnWVtpS6DbLWDs9ym2tSxwCbQvzbGy1ApUsLGXD9NlM8GXikSleRFJLoliomY+YRq6yo62svIya90DeD7shRBxoSFEHHaNEUmEIIAkZt2KMCIgcewgVv3UhPP/zae6wwj2McPDt+bCngRlTT0bfxkNMSuea8dJA/MPV2eJKsMr20jAPRE/enhf64eylpFdgLSaUY48XGARAeRfolaUlpZdlPiv4YATTAJ19QJNQKsAAAQQGKid8z/uwniNv7IHprcA8KMSdgnA/3Yo9b/OvxsWdeYuQSQzDuebmiNtE4jKMdgF5xW7D8V+c9QgE36uxadQTP2H5TnDHsGUHRSd87qWeQMRziu54qQpH0ELf1khbV+FKXpRBLtuimhqpkjGivJsKmQgqCKQ1vj/zgAKRqgONJQ3huKJ91EzI2B9XAGZgiLgJXXUNTX1OXDJ9YivPrG1s7U02cOdbzW9dk4gsshUz09qa2oZSTp3kLAlEbjHTxXQwFt/fEqjIgQyRVJxJaBDUV481tCAUZMTaF7q8oiA05A/KwOGGtETxqLwnoyJoxp7w1UOOXmEZamvOrOkKsnY4bGkI6AAMh3QDaxusYNoYMvruKyj0nojzSmw5e3smvwWf3iNjwA=') format('woff2');
+      }
+    </style>
+  </defs>
+  <!-- Pulse icon -->
+  <rect width="64" height="64" rx="14" fill="#0a0e1a"/>
+  <polyline
+    fill="none"
+    stroke="url(#wpg)"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    points="6,32 16,32 21,32 25,20 30,44 35,14 40,50 45,28 49,32 54,32 58,32"
+  />
+  <!-- Wordmark -->
+  <text x="78" y="40" font-family="Quicksand" font-weight="700" font-size="28">
+    <tspan fill="#1a1a2e">Pulse</tspan><tspan fill="#232F85">HQ</tspan>
+  </text>
+</svg>

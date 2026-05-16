@@ -1,0 +1,24 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+leads_storage.json
+
+# Runtime data
+business_configs_storage.json
+batches_storage.json
+lead.txt
+plan
+
+# Private docs
+docs/internal/
+
+# Work logs
+.daily-work-log/
+
+# IDE
+.idea/

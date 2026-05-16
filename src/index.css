@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'IBM Plex Sans', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, monospace;
+}
+
+@layer base {
+  :root {
+    --c-bg: #fafafa;
+    --c-surface: #f0f0f0;
+    --c-surface-raised: #ffffff;
+    --c-border: #dcdcdc;
+    --c-border-subtle: #ebebeb;
+    --c-text-1: #1a1a1a;
+    --c-text-2: #4a4a4a;
+    --c-text-3: #7a7a7a;
+    --c-text-4: #a0a0a0;
+    --c-primary: #1a1a1a;
+    --c-primary-hover: #333333;
+    --c-primary-text: #ffffff;
+    --c-danger: #c53030;
+    --c-overlay: rgba(0, 0, 0, 0.3);
+  }
+
+  .dark {
+    --c-bg: #161616;
+    --c-surface: #1e1e1e;
+    --c-surface-raised: #262626;
+    --c-border: #3a3a3a;
+    --c-border-subtle: #2a2a2a;
+    --c-text-1: #f4f4f4;
+    --c-text-2: #c6c6c6;
+    --c-text-3: #6f6f6f;
+    --c-text-4: #525252;
+    --c-primary: #f4f4f4;
+    --c-primary-hover: #d4d4d4;
+    --c-primary-text: #161616;
+    --c-danger: #ff8389;
+    --c-overlay: rgba(0, 0, 0, 0.6);
+  }
+
+  body {
+    background-color: var(--c-bg);
+    color: var(--c-text-2);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: var(--c-border);
+    border-radius: 2px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: var(--c-text-3);
+  }
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--c-border) transparent;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
